@@ -26,7 +26,6 @@ public class RequestParameterUtil {
                     params = entry.getKey() + "=" + entry.getValue()[0];
                 } else {
                     params += "&" + entry.getKey() + "=" + entry.getValue()[0];
-                    System.out.println("Hello World!");
                 }
             }
         }
